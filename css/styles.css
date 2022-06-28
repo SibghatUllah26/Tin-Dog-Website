@@ -1,0 +1,159 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1, h2, h3 ,h4 ,h5 , h6 {
+  font-family: "Montserrat";
+}
+p{
+  color: #8f8f8f;
+  font-family: 'Montserrat-light', sans-serif;
+}
+em{
+  font-family: 'Montserrat-light', sans-serif;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+.navbar {
+  padding: 0 0 3.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight:lighter;
+}
+/* Id name and using selector after a space we can target the specific area of that ID */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+    background-color: white;
+}
+/* big-heading */
+.big-heading{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.download-button{
+  margin: 5% 1.5%;
+}
+.title-image{
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+
+}
+#features {
+  position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.FC {
+  padding: 5%;
+}
+
+.PF {
+  color: #8f8f8f;
+  font-family: 'Montserrat-light', sans-serif;
+}
+.fa-solid{
+  margin: 2rem;
+  color: #ef8172;
+}
+.fa-solid:hover{
+  color: #ff4c68;
+}
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+/* testimonial-text */
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 25%;
+}
+.TI{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press.colored-section {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.PL {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 7% 15%;
+}
+/* price-text */
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card {
+  height: 24rem;
+}
+.PB{
+  margin: 15% 1.5%;
+}
+.PB1{
+  margin: 2% 1.5%;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:990px) {
+  .title-image{
+    position: static;
+    transform: none;
+    width: 60%;
+  }
+  #title{
+    text-align: center;
+  }
+}
+.CH {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  padding: 30px 0 50px;
+}
+#cta .container-fluid{
+  padding: 5% 25%;
+}
+#cta .download-button{
+  margin: 0;
+}
+#footer{
+  background-color: #fff;
+  padding: 3% 15% 0 ;
+}
+.FI{
+  color: black;
+  margin: 20px 10px;
+}
